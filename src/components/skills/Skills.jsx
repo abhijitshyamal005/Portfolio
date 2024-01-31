@@ -56,11 +56,7 @@ const Skills = ({ darkMode }) => {
                   value={85}
                 />
                 <ProgressBar logo={<FaReact />} name={"React Js"} value={85} />
-                <ProgressBar
-                  logo={<TbBrandNextjs />}
-                  name={"Next Js"}
-                  value={70}
-                />
+                
               </div>
             </div>
           </div>
@@ -89,10 +85,10 @@ const Skills = ({ darkMode }) => {
               />
               <SkillBox
                 className="overflow-hidden"
-                logo={<SiTypescript className="text-white p-1" />}
+                logo={<SiJavascript className="text-white p-1" />}
                 black={"white"}
                 white={"black"}
-                skill={"TypeScript"}
+                skill={"JavaScript"}
               />
               {/* <SkillBox
                 className=""
