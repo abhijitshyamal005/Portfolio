@@ -6,20 +6,18 @@ const Resume = () => {
       {/* heading */}
       <div data-aos="fade-up" className="relative mb-5">
         <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-          Education
+          Resume
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
       <div data-aos="fade-up" className="left flex-1 w-full">
         <p className=" text-gray-700 font-medium w-[100%]">
-          Here are my Education Qualifications.
+          Here are my Educational qualifications.
         </p>
       </div>
       {/* card*/}
-      <div>
       <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
-        <div className="left flex-1 flex items-center justify-center"></div>
-        <div className="right flex-1 flex items-center justify-center">
+        <div className="left flex-1 flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
@@ -35,30 +33,30 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Sc, Mathematics Hons.
+                  Software Developer Intern
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Vidyasagar Universiry
+               B.sc, Mathematics Hons
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2019 - Year 2022
+                  May 2019 - Aug 2022
                 </span>
-                <p className=" text-[.9rem] text-justify text-gray-500">
-                  As an undergraduate student, I have a good understanding of
-                  Mathematics.Learning mathematics will help me to grow their problem-solving and logical reasoning skills. Solving mathematical problems is one of the best brain exercises.
-                </p>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                As an undergraduate student, I have a good understanding of
+                  Mathematics.Learning mathematics will help me to grow their problem-solving and logical reasoning skills. Solving mathematical problems is one of the best brain exercises.                </p>
               </div>
             </div>
           </fieldset>
-          </div>
+        </div>
+        <div className="right flex-1 flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
-              Master's
+              Masters
             </legend>
             <div className=" relative">
               {/* design */}
@@ -70,21 +68,21 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Master of Computer Application
+                  Masters of Computer Application
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                National Institute of Technology Jamshedpur
+                  National Institute of Technology, Jamshedpur
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Year 2023 - Year 2026
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                As an undergraduate student, I have a good understanding of
-web development technologies such as HTML, CSS, Tailwind CSS,
-JavaScript, and React JS. Additionally, I'm proficient in
-backend technologies such as Node.js, Express.js, and MongoDB.
-I also have skills in C++ and problem-solving using Data
-structures and Algorithms.
+                  As an CSE student, I have a good understanding of
+                  web development technologies such as HTML, CSS, Tailwind CSS,
+                  JavaScript, and React JS. Additionally, I'm proficient in
+                  backend technologies such as Node.js, Express.js, and MongoDB.
+                  I also have skills in C++ and problem-solving using Data
+                  structures and Algorithms.
                 </p>
               </div>
             </div>
