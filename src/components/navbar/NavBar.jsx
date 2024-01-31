@@ -63,7 +63,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            Sandip<span className="text-red-500">.</span>
+            Abhijit<span className="text-red-500">.</span>
           </Link>
       </div>
         <div
@@ -107,7 +107,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               </li>
             ))}
             <a
-              href="https://www.linkedin.com/in/sarkar-sandip/"
+              href="mailto:abhijitshyamal005@gmail.com"
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
