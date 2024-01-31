@@ -1,5 +1,6 @@
 import React from "react";
-import mine from "../../assets/mine-min.png";
+import reactLogo from "./modified.png";
+
 import {
   AiFillTwitterCircle,
   AiFillGithub,
@@ -22,37 +23,34 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-semibold sm:text-[2rem] font-[]"
             >
-              Hello, I'm{" "}
-              <span className="text-yellow- font-bold font-mono">
-                {" "}
-                {"{"}Sandip Sarkar{"}"}
-              </span>
+              Hello, I'm a
+             
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
                 "Web Developer",
-                2000,
-                "Freelancer",
-                2000,
-                "Content Creator",
-                2000,
+                1500,
+                "Coder",
+                1500,
+                "Programmer",
+                1500,
               ]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-yellow-500 text-4xl font-bold sm:text-3xl"
+              className="text-yellow-500 text-5xl font-bold sm:text-4xl"
             />
             <p
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Final-year undergraduate student at NIT Agartala.{" "}
+              Master of Computer Application student at NIT Jamshedpur.{" "}
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href="https://www.linkedin.com/in/sarkar-sandip/"
+              href="mailto:abhijitshyamal005@gmail.com"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
@@ -78,29 +76,19 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/SandipNITA2025">
+                <a href="https://github.com/abhijitshyamal005">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/sarkar-sandip/">
+                <a href="http://www.linkedin.com/in/abhijit-shyamal-13a229258">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
-              <li>
-                <a href="https://instagram.com/the_sandip___?igshid=ZDdkNTZiNTM=">
-                  {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/profile.php?id=100004767878989">
-                  {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
+             
+             
               <li>
                 <a href="">
                   {" "}
@@ -116,10 +104,9 @@ const Hero = () => {
               loading="lazy"
               data-aos="fade-up"
               className=" h-[80%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src="https://ik.imagekit.io/imgkitt/tr:w-1200/mine-min.png?updatedAt=1683134786173"
-              // src={mine}
-              alt="mine"
-            />
+              src={reactLogo} alt="react logo" />
+              
+            
             <div className=" absolute bottom-12 md:bottom-3 right-10 md:right-2">
               <div
                 data-aos="zoom-in"
