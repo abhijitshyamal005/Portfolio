@@ -1,122 +1,98 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { BsFillSunFill } from "react-icons/bs";
-import { HiMenu } from "react-icons/hi";
-import { RxCross2 } from "react-icons/rx";
+import React from "react";
 
-const navItems = [
-  {
-    id: 0,
-    name: "home",
-  },
-  {
-    id: 1,
-    name: "skills",
-  },
-  {
-    id: 2,
-    name: "works",
-  },
-  {
-    id: 3,
-    name: "resume",
-  },
-  {
-    id: 4,
-    name: "contact",
-  },
-];
-
-const NavBar = ({ toggleDarkMode, darkMode }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  // Toggle the navbar
-  const toggleNav = (name) => {
-    setIsOpen(!isOpen);
-    setActiveIndex(name === activeIndex ? null : name);
-  };
-
-  const [scrollPosition, setScrollPosition] = useState(0);
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollPosition(window.scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+const Resume = () => {
   return (
-    <div
-      className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
-        scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
-      } `}
-    >
-      <nav className=" container m-auto flex items-center justify-between">
-        <div data-aos="fade-down" className="logo">
-          <Link
-            onClick={() => window.scrollTo(0, 0)}
-            to="/"
-            className="text-3xl font-bold sm:text-3xl"
-          >
-            Abhijit<span className="text-red-500">.</span>
-          </Link>
+    <div id="resume" className=" container m-auto   mt-16">
+      {/* heading */}
+      <div data-aos="fade-up" className="relative mb-5">
+        <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
+          Education
+        </h3>
+        <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
-        <div
-          data-aos="fade-down"
-          className="nav-items flex items-center space-x-11"
-        >
-          {/* hamburger */}
-          <button
-            onClick={toggleNav}
-            className="cursor-pointer text-2xl hidden md:block"
+      <div data-aos="fade-up" className="left flex-1 w-full">
+        <p className=" text-gray-700 font-medium w-[100%]">
+          Here are my Education Qualifications.
+        </p>
+      </div>
+      {/* card*/}
+      <div>
+      <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
+        <div className="left flex-1 flex items-center justify-center"></div>
+        <div className="right flex-1 flex items-center justify-center">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <HiMenu size={25} />
-          </button>
-
-          <ul
-            className={`flex items-center space-x-11 ${
-              !isOpen ? "md:flex" : "md:right-[0%]"
-            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+              Graduation
+            </legend>
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  B.Sc, Mathematics Hons.
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Vidyasagar Universiry
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Year 2019 - Year 2022
+                </span>
+                <p className=" text-[.9rem] text-justify text-gray-500">
+                  As an undergraduate student, I have a good understanding of
+                  Mathematics.Learning mathematics will help me to grow their problem-solving and logical reasoning skills. Solving mathematical problems is one of the best brain exercises.
+                </p>
+              </div>
+            </div>
+          </fieldset>
+          </div>
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            {/* Use a button tag for better accessibility */}
-            <button
-              onClick={toggleNav}
-              className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
-            >
-              <RxCross2 size={25} />
-            </button>
-            {navItems.map((item) => (
-              <li
-                key={item.id}
-                className="md:m-6 md:flex md:gap-6 md:items-center md:justify-center"
-              >
-                <a
-                  onClick={() => toggleNav(item.name)}
-                  href={`#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
-                    item.name === activeIndex ? "text-yellow-600" : ""
-                  }`}
-                >
-                  {item.name}<span className="text-red-500 font-bold text-[25px] pl-[1px]">.</span>
-                </a>
-              </li>
-            ))}
-            <a
-              href="mailto:abhijitshyamal005@gmail.com"
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
-            >
-              HIRE ME
-            </a>
-          </ul>
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+              Master's
+            </legend>
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Master of Computer Application
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                National Institute of Technology Jamshedpur
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Year 2023 - Year 2026
+                </span>
+                <p className=" text-[.9rem] text-justify text-gray-500">
+                As an undergraduate student, I have a good understanding of
+web development technologies such as HTML, CSS, Tailwind CSS,
+JavaScript, and React JS. Additionally, I'm proficient in
+backend technologies such as Node.js, Express.js, and MongoDB.
+I also have skills in C++ and problem-solving using Data
+structures and Algorithms.
+                </p>
+              </div>
+            </div>
+          </fieldset>
         </div>
-      </nav>
+      </div>
     </div>
   );
 };
 
-export default NavBar;
+export default Resume;
