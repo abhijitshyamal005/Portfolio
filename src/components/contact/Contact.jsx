@@ -24,7 +24,7 @@ const Contact = () => {
             >
               <h1 className="text-5xl font-bold sm:text-3xl">You Need</h1>
               <h3 className="text-xl sm:text-lg">
-                Beautiful design for your website leave a request
+               Take a coffee and chat with me
               </h3>
             </div>
           </div>
