@@ -39,7 +39,7 @@ const Resume = () => {
                 Abhijit Shyamal_
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  May 2023 - Aug 2023
+                 
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 a competitive programmer and a full-stack web developer, 
