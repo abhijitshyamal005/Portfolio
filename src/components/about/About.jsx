@@ -13,7 +13,7 @@ const Resume = () => {
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
-      <div data-aos="fade-up" className="left flex w-full">
+      <div data-aos="fade-up" className="left flex">
         
       </div>
   
