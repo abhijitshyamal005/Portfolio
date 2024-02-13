@@ -53,7 +53,7 @@ const about = () => {
               </span>{" "}
               Being from a Mathematics Honours background, my interests lies in
               Programming and I, am an enthusiastic Competitive Programming
-              learner, maintained a decent profile on GFG platform. In
+              learner, maintained a decent profile on CODEFORCE , LEEDCODE ,HACKER RANK,CODING NINJA platform. In
               development field, I have Backend skills in Node.Js and frontend
               skills in CSS and React.js. I've made some projects using these
               technologies. Apart from these technicals, I love public speaking
