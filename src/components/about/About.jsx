@@ -1,5 +1,5 @@
 import React from "react";
-import reactLogo from "./dev2.jpg";
+
 
 const Resume = () => {
   return (
@@ -14,11 +14,7 @@ const Resume = () => {
       <div data-aos="fade-up" className="left flex-1 w-full">
         
       </div>
-       <img
-              loading="lazy"
-              data-aos="fade-up"
-              className=" h-[20%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src={reactLogo} alt="react logo" />
+  
       {/* card*/}
       <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex-1 flex items-center justify-center">
