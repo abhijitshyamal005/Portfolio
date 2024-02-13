@@ -5,6 +5,7 @@ import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
+
 const WorkCard = () => {
   const reversedData = [...data]
     .filter((item, id) => id !== 1 )
