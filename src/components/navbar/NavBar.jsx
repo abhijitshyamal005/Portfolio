@@ -19,7 +19,7 @@ const navItems = [
   },
   {
     id: 3,
-    name: "resume",
+    name: "about",
   },
   {
     id: 4,
