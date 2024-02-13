@@ -1,67 +1,43 @@
-import project1 from "../assets/hotel-kusum.jpeg";
-import project2 from "../assets/travel-clone.jpeg";
-import project3 from "../assets/weather.jpeg";
-import project4 from "../assets/social-clone.jpeg";
-import project6 from "../assets/MERN-expense.jpeg";
-import project7 from "../assets/ecommerce.jpeg";
-import project8 from "../assets/blog-app.png";
+import project1 from "../assets/AS-Ecart.png";
+import project2 from "../assets/Age_calculator.png";
+import project3 from "../assets/Weather.png";
+import project4 from "../assets/To-Do.png";
 
 export const data = [
+ 
   {
     id: 1,
-    img: "https://ik.imagekit.io/imgkitt/tr:w-800/hotel-kusum.jpeg?updatedAt=1683134012764",
-    title: "Hotel Kusum Palace (Live)",
-    desc: "I made this hotel website for a client, using HTML, CSS, JavaScript and it is responsive. It is also live.",
-    link: "https://kusumpalace.com/",
-    git: "https://github.com/SandipNITA2025/Nepal-hotel-projrct",
+    img: project1,
+    title: "AS-Ecart",
+    desc:"Launched AS-Ecart, an online marketplace featuring a diverse range of products and services, including elec tronics, clothing, home goods, and more",
+    link: "https://abhijitshyamal005.github.io/AS-Ecart/",
+    git: "https://github.com/abhijitshyamal005/AS-Ecart",
   },
+
   {
-    id: 2,
+    id: 5,
     img: project2,
-    title: "Tarvel Agency",
-    link: "https://travel-agency-vite.netlify.app",
-    git: "",
+    title: "Age_calculator",
+    desc: " Designed and developed online platform that accurately calculate age in real time..",
+    link: "https://abhijitshyamal005.github.io/Age-calculator-/",
+    git: "https://github.com/abhijitshyamal005/Age-calculator-",
   },
 
   {
     id: 3,
-    img: "https://ik.imagekit.io/imgkitt/nike.JPG?updatedAt=1683563311643",
-    title: "Nike Clone",
-    desc: "This Nike clone has been built with the help of Next.js and Tailwind CSS..",
-    link: "https://nike-clones.vercel.app/",
-    git: "",
+    img: project3,
+    title: "Weather Application",
+    desc: "Analyze and interpret weather data and computer modeling applications from radar, satellites, and air stations to create accurate weather predictions and forecast ",
+    link: "https://abhijitshyamal005.github.io/Weather-Report/",
+    git: "https://github.com/abhijitshyamal005/Weather-Report",
   },
-
   {
     id: 4,
-    img: "https://ik.imagekit.io/imgkitt/tr:w-800/ecommerce.jpeg?updatedAt=1683134011136",
-    title: "Ecommerce Clone",
-    desc: "This is an e-commerce web application built using React JS, SCSS, Redux Toolkit, and a Dummy JSON API. It includes search functionality, as well as the ability to add and remove items from a shopping cart.",
-    link: "https://redux-store-app.netlify.app/",
-    git: "https://github.com/SandipNITA2025/react-redux-ecommerce",
+    img: project4,
+    title: "To-Do List",
+    desc: "odo list always be ready to quickly capture a random task.That should be quick to allow you to add a todoand get it “out of your head.",
+    link: "https://abhijitshyamal005.github.io/TO-DO-LIST/",
+    git: "https://github.com/abhijitshyamal005/TO-DO-LIST",
   },
-  {
-    id: 6,
-    img: "https://ik.imagekit.io/imgkitt/mobile.png?updatedAt=1685388082890",
-    title: "Blog Website",
-    desc: "This is a full-stack web application that uses ReactJS, Tailwind CSS, ExpressJS, and MongoDB. The application features user authentication and enables users to create, edit, and delete their own posts, as well as view posts created by others.",
-    link: "https://blog-web-app-delta.vercel.app/",
-    git: "https://github.com/SandipNITA2025/MERN-STACK---BLOG-POST-WEB",
-  },
-  {
-    id: 7,
-    img: "https://ik.imagekit.io/imgkitt/indohype.JPG?updatedAt=1702276135123",
-    title: "Indohype: Latest News & Blogs (Live)",
-    desc: "Thrilled to unveil a dynamic Full Stack masterpiece—sleek User panel, Admin panel, and robust backend APIs for the Indohype website. Excited to deliver top-notch functionality for our client's digital journey!",
-    link: "https://www.indohype.com/",
-    git: "",
-  },
-  {
-    id: 8,
-    img: "https://i.postimg.cc/NLqfGxVc/mobile-5.png",
-    title: "Palette: Design Your Clothes",
-    desc: "PALETTE, an e-commerce platform enabling users to customize designs on clothing for a client.  Implemented cutting-edge technologies like React JS, FabricJS, Redux Toolkit, and React Query for a seamless user experience.",
-    link: "https://palette-frontend-ten.vercel.app/custom-design",
-    git: "",
-  },
+  
 ];
