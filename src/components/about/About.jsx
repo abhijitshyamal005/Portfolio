@@ -21,7 +21,7 @@ const Resume = () => {
           </div>
           {/* design */}
           <div className=" flex  gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-            <img  className="h-[480px] w-[380px]" src={reactLogo} alt="reactLogo" />
+            <img  className="h-[480px]" src={reactLogo} alt="reactLogo" />
           </div>
         </div>
 
