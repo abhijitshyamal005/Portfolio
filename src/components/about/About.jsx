@@ -20,10 +20,10 @@ const Resume = () => {
             <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
           </div>
           
-            <img  className="h-[480px] w-[380px] sm:h-[350px] flex border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg" src={reactLogo} alt="reactLogo" />
+            <img  className="h-[480px] w-[380px] sm:h-[380px] flex border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg" src={reactLogo} alt="reactLogo" />
           </div>
 
-        <div className=" relative">
+        <div className=" relative mt-1 sm:mt-2">
           {/* design */}
           <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
             <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
