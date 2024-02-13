@@ -24,6 +24,7 @@ const Resume = () => {
             <img  className="h-[480px] sm:h-[350px]" src={reactLogo} alt="reactLogo" />
           </div>
         </div>
+        <br/>
 
         <div className=" relative">
           {/* design */}
