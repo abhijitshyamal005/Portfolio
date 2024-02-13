@@ -90,8 +90,8 @@ const Hero = () => {
              
              
               <li>
-                <a href="">
-                  {"https://x.com/Abhijit_Shy003?s=08"}
+                <a href="https://x.com/Abhijit_Shy003?s=08">
+                  {""}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
