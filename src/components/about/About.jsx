@@ -1,4 +1,6 @@
 import React from "react";
+import reactLogo from "./dev2.jpg";
+
 
 
 const Resume = () => {
