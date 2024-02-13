@@ -15,7 +15,7 @@ export const data = [
   },
 
   {
-    id: 5,
+    id: 2,
     img: project2,
     title: "Age_calculator",
     desc: " Designed and developed online platform that accurately calculate age in real time..",
