@@ -1,7 +1,7 @@
 import React from "react";
 import reactLogo from "./dev2.jpg";
 
-const Resume = () => {
+const about = () => {
   return (
     <div id="resume" className=" container m-auto   mt-16">
     
@@ -67,4 +67,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default about;
