@@ -19,12 +19,10 @@ const Resume = () => {
             <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
             <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
           </div>
-          {/* design */}
-          <div className=" flex  gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-            <img  className="h-[480px] sm:h-[350px]" src={reactLogo} alt="reactLogo" />
-          </div>
+          
+            <img  className="h-[480px] w-[380px] sm:h-[350px] flex border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg" src={reactLogo} alt="reactLogo" />
+          
         </div>
-        <br/>
 
         <div className=" relative">
           {/* design */}
