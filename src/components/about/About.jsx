@@ -3,7 +3,7 @@ import reactLogo from "./dev2.jpg";
 
 const about = () => {
   return (
-    <div id="resume" className=" container m-auto   mt-16">
+    <div data-aos="fade-up" id="resume" className=" container m-auto   mt-16">
     
       <div data-aos="fade-up" className="relative mb-5">
         <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
