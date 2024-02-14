@@ -11,7 +11,7 @@ const about = () => {
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
-      <div className="">
+      <div data-aos="fade-up">
         <div className=" relative">
           {/* design */}
           <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
@@ -20,10 +20,10 @@ const about = () => {
             <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
           </div>
           
-            <img  className="h-[480px] w-[380px] sm:h-[380px] flex border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg" src={reactLogo} alt="reactLogo" />
+            <img data-aos="fade-up" className="h-[480px] w-[380px] sm:h-[380px] flex border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg" src={reactLogo} alt="reactLogo" />
           </div>
 
-        <div className=" relative mt-1 sm:mt-2">
+        <div data-aos="fade-up" className=" relative mt-1 sm:mt-2">
           {/* design */}
           <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
             <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
