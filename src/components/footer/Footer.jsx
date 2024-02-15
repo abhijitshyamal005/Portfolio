@@ -23,7 +23,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1200"
 
-            href="https://wa.me/6296390743"
+            href="https://wa.me/+916296390743"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
